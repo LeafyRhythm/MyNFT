@@ -1,0 +1,23 @@
+{
+  "name": "mynft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeafyRhythm/MyNFT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeafyRhythm/MyNFT/issues"
+  },
+  "homepage": "https://github.com/LeafyRhythm/MyNFT#readme",
+  "dependencies": {
+    "hardhat": "^2.8.4"
+  }
+}
