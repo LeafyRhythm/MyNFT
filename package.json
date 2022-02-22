@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/LeafyRhythm/MyNFT#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "hardhat": "^2.8.4"
   }
 }
