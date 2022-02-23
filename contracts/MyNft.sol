@@ -10,7 +10,7 @@ contract MyNft is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
 
-    constructor(string _name) ERC721(_name) {}
+    constructor(string memory _name, string memory _sym) ERC721(_name,_sym) {}
 
     function mint(string memory tokenURI)
         public
