@@ -21,7 +21,7 @@ async function main() {
 
   console.log("MyNft deployed to:", nft.address);
 
-  await supermario.mint("https://ipfs.io/ipfs/QmT16ThmNXckJitxgYeHwV1uSbY6rSnURDpMJV7N7CCcdB");
+  await nft.mint("https://ipfs.io/ipfs/QmTZrZqAmFdYk85Th5wU1kpbzQj4s8wNwTeFuZ24dHqtXs");
   console.log(" Penguins coming!");
 }
 

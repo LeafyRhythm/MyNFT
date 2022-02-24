@@ -25,7 +25,7 @@ module.exports = {
     mumbai:
     {
       url:process.env.MUMBAI_RPC,
-      account: [ process.env.PRIVATE_KEY ]
+      accounts: [ process.env.PRIVATE_KEY ]
     }
   }
 };
